@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+}
+
+.welcome-sect{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  display: flex;
+}
+.welcome-img{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background:url("../assets/bug.jpg");
+  background-size: cover;
+  filter: blur(3px);
+  z-index: -1;
+}
+.welcome-msg{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  position: absolute;
+  top: 35%;
+}
+.into-msg{
+  color: #fff;
+  font-size: 5rem;
+  font-family: 'Lobster Two', cursive;
+  border-top: 3px  solid #ffb366;
+  border-bottom: 3px  solid #ffb366;
+  padding-bottom: 10px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.intro-desc{
+  font-size: 18px;
+  color: #fff;
+  padding-top: 20px;
+  font-family: Georgia;
+  text-transform: capitalize;
+}
+.explore{
+  background: #ffb366;
+  color: #fff;
+  padding: 7px 25px 7px 25px;
+  font-size: 24px;
+  margin-top: 15px;
+  border: 1px rgb(215, 245, 255,.6) solid;
+  outline: none;
+}
+.nav{
+  background:rgb(0,0,0,.6);
+  align-self: flex-end;
+  width: 100%;
+}
+.nav>ul{
+  display: flex;
+  justify-content: center;
+}
+.nav>ul>li{
+  list-style: none;
+  color: #fff;
+  padding: 25px;
+  font-family:'Lobster Two', cursive;
+  font-size: 20px;
+}
